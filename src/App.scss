@@ -1,5 +1,13 @@
+@use "./assets/scss/typography" as *;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 400px;
+  font-family: "Jost", sans-serif;
 }

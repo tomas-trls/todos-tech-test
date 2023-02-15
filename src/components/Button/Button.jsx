@@ -1,8 +1,12 @@
 import React from "react";
 import "./Button.scss";
 
-const Button = () => {
-  return <button className="navbar__button button">Reset</button>;
+const Button = ({ handleReset }) => {
+  return (
+    <button className="navbar__button button" onClick={handleReset}>
+      Reset
+    </button>
+  );
 };
 
 export default Button;

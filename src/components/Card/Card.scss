@@ -1,0 +1,21 @@
+.card {
+  margin: 5px 0;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  align-items: center;
+  border-radius: 8px;
+
+  &__delete {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.card.line-through {
+  .card__text {
+    text-decoration: line-through;
+  }
+}
