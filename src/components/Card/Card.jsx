@@ -1,4 +1,5 @@
 import React from "react";
+import trash from "../../assets/images/trash-icon.png";
 import "./Card.scss";
 
 const Card = ({ id, input, className, handleDeleteCard, handleCheckBox }) => {
@@ -12,7 +13,7 @@ const Card = ({ id, input, className, handleDeleteCard, handleCheckBox }) => {
       />
       <p className="card__text">{input}</p>
       <button className="card__delete" onClick={() => handleDeleteCard(id)}>
-        🗑
+        <img src={trash} alt="trash icon" className="card__image" />
       </button>
     </div>
   );

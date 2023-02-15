@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  &__title {
+    font-size: 2.5rem;
+  }
   &__header {
     display: flex;
     justify-content: space-between;

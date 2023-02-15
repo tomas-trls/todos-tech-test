@@ -14,7 +14,7 @@ const SearchBar = ({ handleInput, handleSubmit, value }) => {
         onChange={handleInput}
       />
       <button className="searchbar__btn" type="submit" onClick={handleSubmit}>
-        +
+        <div className="searchbar__btn--plus">+</div>
       </button>
     </form>
   );
